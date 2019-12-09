@@ -98,7 +98,7 @@ public class EmployeeServiceImplTest {
         testEmployee.setLastName("Lennon");
         testEmployee.setDepartment("Engineering");
         testEmployee.setPosition("Developer");
-        testEmployee.setDirectReports(Arrays.asList(createdEmployee1, createdEmployee2, createdEmployee3, createdEmployee4));
+        testEmployee.setDirectReports(Arrays.asList(createdEmployee0, createdEmployee1, createdEmployee2, createdEmployee3, createdEmployee4));
         testReportingStructure.setEmployee(testEmployee);
         testReportingStructure.setNumberOfReports(5);
     }
